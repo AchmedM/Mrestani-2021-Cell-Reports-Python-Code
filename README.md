@@ -1,21 +1,10 @@
-# Mrestani-2021-Cell-Reports-Python-Code
+# Dissertation-Achmed-Mrestani-Python-Code
 
 Copy all files of this repository to one folder. 
 Download Aanaconda (https://www.anaconda.com/distribution/#download-section).
-
-Open Anaconda prompt and create new environment.
-```
-conda create --name mrestani_diss
-```
-Activate new environment.
-```
-conda activate mrestani_superres
-```
-Install some dependencies
-```
-conda install cgal jupyter scikit-learn scikit-image hdbscan pandas statsmodels astropy
-```
-Start jupyter notebook from Anaconda prompt.
-Navigate to and open analysis_notebook.ipynb.
+Open Anaconda prompt and create new environment (conda create --name mrestani_diss).
+Activate new environment (conda activate mrestani_diss).
+Install some more dependencies (conda config --add channels conda-forge; conda install cgal; conda install jupyter descartes scikit-learn scikit-image hdbscan pandas pytables shapely cython dask  statsmodels vispy  ipyvolume).
+Start jupyter notebook.
+Open dissertation_achmed_mrestani_notebook.
 Follow the instructions in the notebook to analyze the test file dStorm647_Nc82_8.txt.
-Open analysis_notebook.html for an already executed version of the notebook.
