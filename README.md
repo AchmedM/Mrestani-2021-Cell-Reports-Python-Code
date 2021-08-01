@@ -5,11 +5,11 @@ Download Aanaconda (https://www.anaconda.com/distribution/#download-section).
 
 Open Anaconda prompt and create new environment.
 ```
-conda create --name mrestani_diss
+conda create --name mrestani_superres
 ```
 Activate new environment.
 ```
-conda activate mrestani_diss
+conda activate mrestani_superres
 ```
 Install some dependencies.
 ```
@@ -17,6 +17,6 @@ conda install cgal jupyter scikit-learn scikit-image hdbscan pandas statsmodels 
 ```
 
 Start jupyter notebook from Anaconda prompt.
-Navigate to and open dissertation_achmed_mrestani_notebook.ipynb.
+Navigate to and open analysis_notebook.ipynb.
 Follow the instructions in the notebook to analyze the test file dStorm647_Nc82_8.txt.
-Open dissertation_achmed_mrestani_notebook.html for an already executed version of the notebook.
+Open analysis_notebook.html for an already executed version of the notebook.
